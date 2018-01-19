@@ -1,10 +1,7 @@
 importScripts('./sw-toolbox.js');
- 
-var themePath = '/';
+
 var cacheFiles = [
-	'/',
-	'/wp-json/wp/v2/cards/',
-	'/wp-json/wp/v2/card_categories',
+	'https://wyllen.github.io/pwa',
 ]
 
 //Let's just precache two items
