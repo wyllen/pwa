@@ -4,7 +4,7 @@
   "display": "standalone",
   "icons": [
   {
-    "src": "https://wyllen.github.io/pwa/assets/images/favicon-300.png",
+    "src": "https://wyllen.github.io/pwa/dist/assets/images/favicon-300.png",
     "sizes": "300x300",
     "type": "image/png"
   }
