@@ -1,0 +1,51 @@
+.card-full-content{
+  transition: .50s ease all;
+  transform: translateY(0);
+}
+.cardLoading .card-full-content,
+.closingCard .card-full-content{
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.cardLoading .main-content:before{
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  height: calc(100vh - 20px);
+  background: #fff;
+  border-radius: 5px;
+}
+
+@keyframes closingCard {
+    0%   { 
+      transform: scale(1);
+      height: calc(100vh - 20px);
+    }
+    10%{
+      transform: scale(1.01);
+      height: calc(100vh - 20px);
+    }
+    25%{
+      transform: scale(1.01);
+      height: calc(100vh - 20px);
+    }
+    100% {
+      transform: scale(1);
+      height: 0;
+    }
+}
+ .closingCard .main-content:before{
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  border-radius: 5px;
+  animation: closingCard 1.0s forwards;
+  animation-delay: 0.5s;
+}

@@ -1,0 +1,18 @@
+.card-full{
+    background: #fff;
+    border-radius: 5px;
+    .card-full-content{
+    position: relative;
+    width: 100%;
+    padding: $spacer;
+        .card-close{
+            position: absolute;
+            top: $spacer /2;
+            right: $spacer /2;
+            font-size: $spacer * 2;
+            line-height: 1;
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}

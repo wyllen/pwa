@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700');
+
+@import "variables";
+
+// Common
+@import "common/global";
+@import "common/icons";
+@import "common/transitions";
+
+// Components
+@import "components/buttons";
+@import "components/loader";
+@import "components/card";
+@import "components/cards-grid";
+@import "components/cards-filters";
+
+// Layouts
+@import "layouts/home";
+@import "layouts/interior";
+
+// Partials
+@import "partials/footer";
+@import "partials/main-content";
+@import "partials/sidebar";
+@import "partials/posts";

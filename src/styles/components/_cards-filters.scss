@@ -1,0 +1,30 @@
+.list-group.filters{
+    .list-group-item{
+        border: none;
+        background: none;
+        color: #000;
+        font-weight: bold;
+        text-align: left;
+        padding: $spacer 0;
+        &:hover{
+            opacity: 0.8;
+        }
+        &.is-checked{
+            background: none;
+            color: $mainColor;
+            .badge{
+                background: $mainColor;
+            }
+        }
+        .filter-icon{
+                width: $spacer;
+                text-align: left;
+                font-size: $spacer;
+                margin-right: $spacer/2;
+        }
+        .badge{
+            color: #fff;
+            background: #000;
+        }
+    }
+}

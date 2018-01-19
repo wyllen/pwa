@@ -1,0 +1,54 @@
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 270px;
+    background: #ECEAE7;
+    height: 100%;
+    .sidebar__nav{            
+        padding: $spacer;
+    }
+    .sidebar__top{
+        background: #C15659;
+        padding: $spacer $spacer*2;
+        text-align: center;
+        .text-logo{
+            margin-bottom: $spacer;
+            height: 40px;
+        }
+    }
+}
+
+.city-thumbnail {
+    position: relative;
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    &:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.3;
+    }
+    span{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-50%);
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'ilovethis';
+  src:  url('/wp-content/themes/ilovethis/dist/assets/fonts/ilovethis.eot?ktcby7');
+  src:  url('/wp-content/themes/ilovethis/dist/assets/fonts/ilovethis.eot?ktcby7#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/ilovethis/dist/assets/fonts/ilovethis.ttf?ktcby7') format('truetype'),
+    url('/wp-content/themes/ilovethis/dist/assets/fonts/ilovethis.woff?ktcby7') format('woff'),
+    url('/wp-content/themes/ilovethis/dist/assets/fonts/ilovethis.svg?ktcby7#ilovethis') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ilovethis' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-schedule:before {
+  content: "\e8b5";
+}
+.icon-account_balance:before {
+  content: "\e84f";
+}
+.icon-add:before {
+  content: "\e145";
+}
+.icon-airline_seat_individual_suite:before {
+  content: "\e632";
+}
+.icon-flight:before {
+  content: "\e539";
+}
+.icon-airport_shuttle:before {
+  content: "\eb3c";
+}
+.icon-beach_access:before {
+  content: "\eb3e";
+}
+.icon-photo_camera:before {
+  content: "\e412";
+}
+.icon-camera_enhance:before {
+  content: "\e8fc";
+}
+.icon-close:before {
+  content: "\e5cd";
+}
+.icon-directions_boat:before {
+  content: "\e532";
+}
+.icon-directions_bus:before {
+  content: "\e530";
+}
+.icon-directions_car:before {
+  content: "\e531";
+}
+.icon-directions_transit:before {
+  content: "\e535";
+}
+.icon-euro_symbol:before {
+  content: "\e926";
+}
+.icon-ev_station:before {
+  content: "\e56d";
+}
+.icon-explore:before {
+  content: "\e87a";
+}
+.icon-favorite:before {
+  content: "\e87d";
+}
+.icon-favorite_border:before {
+  content: "\e87e";
+}
+.icon-hot_tub:before {
+  content: "\eb46";
+}
+.icon-local_hotel:before {
+  content: "\e549";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e313";
+}
+.icon-keyboard_arrow_left:before {
+  content: "\e314";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e315";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e316";
+}
+.icon-local_bar:before {
+  content: "\e540";
+}
+.icon-local_cafe:before {
+  content: "\e541";
+}
+.icon-restaurant_menu:before {
+  content: "\e561";
+}
+.icon-local_gas_station:before {
+  content: "\e546";
+}
+.icon-shopping_cart:before {
+  content: "\e8cc";
+}
+.icon-local_hospital:before {
+  content: "\e548";
+}
+.icon-theaters:before {
+  content: "\e8da";
+}
+.icon-local_parking:before {
+  content: "\e54f";
+}
+.icon-local_pizza:before {
+  content: "\e552";
+}
+.icon-local_taxi:before {
+  content: "\e559";
+}
+.icon-room:before {
+  content: "\e8b4";
+}
+.icon-map:before {
+  content: "\e55b";
+}
+.icon-navigation:before {
+  content: "\e55d";
+}
+.icon-near_me:before {
+  content: "\e569";
+}
+.icon-radio_button_checked:before {
+  content: "\e837";
+}
+.icon-thumb_down:before {
+  content: "\e8db";
+}
+.icon-thumb_up:before {
+  content: "\e8dc";
+}
+.icon-zoom_out_map:before {
+  content: "\e56b";
+}
