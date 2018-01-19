@@ -1,4 +1,4 @@
-importScripts('./sw-toolbox.js');
+importScripts('https://wyllen.github.io/pwa/sw-toolbox.js');
 
 var cacheFiles = [
 	'https://wyllen.github.io/pwa',
