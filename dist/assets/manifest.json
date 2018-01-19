@@ -1,0 +1,17 @@
+{
+  "background_color": "#ffffff",
+  "description": "I Love This Description",
+  "display": "standalone",
+  "icons": [
+  {
+    "src": "/wp-content/themes/ilovethis/dist/assets/images/favicon-300.png",
+    "sizes": "300x300",
+    "type": "image/png"
+  }
+  ],
+  "name": "I Love This",
+  "orientation": "portrait",
+  "short_name": "ilovethis",
+  "start_url": "/",
+  "theme_color": "#ffffff"
+}
