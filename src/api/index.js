@@ -10,7 +10,7 @@ export default {
   },
 
   getCardCategories (cb) {
-    axios.get(window.SETTINGS.API_BASE_PATH + '5a65aec92e00007d0b323c02')
+    axios.get(window.SETTINGS.API_BASE_PATH + 'card_categories')
       .then(response => {
         cb(response.data)
       })
@@ -53,7 +53,7 @@ export default {
   },
 
   getCards (cb) {
-    axios.get(window.SETTINGS.API_BASE_PATH + '5a65af332e00007a0b323c04/')
+    axios.get(window.SETTINGS.API_BASE_PATH + 'cards')
       .then(response => {
         cb(response.data)
       })
