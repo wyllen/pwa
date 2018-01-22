@@ -10,7 +10,7 @@ Vue.use(Router)
 const router = new Router({
   routes: [
     {
-      path: '/',
+      path: '/pwa/',
       name: 'Home',
       component: Home,
       // props: { pageContentID: 383 }

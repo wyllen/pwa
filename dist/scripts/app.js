@@ -7884,7 +7884,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_
 
 var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
   routes: [{
-    path: '/',
+    path: '/pwa/',
     name: 'Home',
     component: __WEBPACK_IMPORTED_MODULE_2__components_Home___default.a
     // props: { pageContentID: 383 }
