@@ -7493,7 +7493,7 @@ module.exports = Component.exports
     });
   },
   getCardCategories: function getCardCategories(cb) {
-    axios.get(window.SETTINGS.API_BASE_PATH + 'card_categories').then(function (response) {
+    axios.get(window.SETTINGS.API_BASE_PATH + '5a65aec92e00007d0b323c02').then(function (response) {
       cb(response.data);
     }).catch(function (e) {
       cb(e);
@@ -7526,7 +7526,7 @@ module.exports = Component.exports
     });
   },
   getCards: function getCards(cb) {
-    axios.get(window.SETTINGS.API_BASE_PATH + 'cards/').then(function (response) {
+    axios.get(window.SETTINGS.API_BASE_PATH + '5a65af332e00007a0b323c04/').then(function (response) {
       cb(response.data);
     }).catch(function (e) {
       cb(e);
@@ -7570,7 +7570,7 @@ window.SETTINGS = {
   // This is likely determined by how many dispatched actions you have below
   // in the created() method
   LOADING_SEGMENTS: 2,
-  API_BASE_PATH: '/wp-json/wp/v2/'
+  API_BASE_PATH: 'http://www.mocky.io/v2/'
 };
 
 __webpack_require__("./src/bootstrap.js");
