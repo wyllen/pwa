@@ -12,6 +12,6 @@
   "name": "I Love This",
   "orientation": "portrait",
   "short_name": "ilovethis",
-  "start_url": "/",
+  "start_url": "/pwa",
   "theme_color": "#ffffff"
 }
