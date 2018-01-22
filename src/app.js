@@ -3,7 +3,7 @@ window.SETTINGS = {
   // This is likely determined by how many dispatched actions you have below
   // in the created() method
   LOADING_SEGMENTS: 2,
-  API_BASE_PATH: 'http://www.mocky.io/v2/'
+  API_BASE_PATH: 'https://www.mocky.io/v2/'
 }
 
 require('./bootstrap')
